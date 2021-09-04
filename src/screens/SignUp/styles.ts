@@ -1,7 +1,14 @@
 import styled from 'styled-components/native';
 
+export const ImageProfile = styled.Image`
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-bottom: 5px;
+`;
+
 export const Container = styled.View`
-  margin-top: 100px;
+  margin-top: 10px;
   padding: 0 30px;
 `;
 
